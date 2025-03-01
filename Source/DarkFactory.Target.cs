@@ -11,5 +11,6 @@ public class DarkFactoryTarget : TargetRules
 		DefaultBuildSettings = BuildSettingsVersion.V5;
 		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_5;
 		ExtraModuleNames.Add("DarkFactory");
-	}
+        ExtraModuleNames.Add("YourModuleName");//’Ç‰Á
+    }
 }

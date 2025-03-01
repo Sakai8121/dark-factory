@@ -9,7 +9,7 @@ void UMyUnrealEdEngine::Init(IEngineLoop* InEngineLoop)
 	{
 		ISourceControlProvider& SourceControlProvider = SourceControlModule.GetProvider();
 
-		const TArray<FString> Branches{ "origin/main", "origin/develop" };
+		const TArray<FString> Branches{ "origin/main", "origin/develop", "origin/dev_Sato", "origin/dev_Sakai" };
 
 		SourceControlProvider.RegisterStateBranches(Branches, TEXT("Content"));
 	}
